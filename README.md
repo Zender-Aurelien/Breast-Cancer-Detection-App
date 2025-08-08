@@ -1,8 +1,8 @@
-\## Breast Cancer Detection App
+\# Breast Cancer Detection App
 
 
 
-\# Overview
+\## Overview
 
 
 
@@ -14,7 +14,7 @@ This project is intended for use as practice \& an educational tool for biotechn
 
 
 
-\# Features
+\## Features
 
 
 
@@ -24,7 +24,7 @@ This project is intended for use as practice \& an educational tool for biotechn
 
 
 
-\# How It Works
+\## How It Works
 
 
 
@@ -40,7 +40,7 @@ The app uses a trained machine learning model to analyze metrics including but n
 
 
 
-\# Tools \& Technologies
+\## Tools \& Technologies
 
 
 
@@ -53,7 +53,7 @@ The app uses a trained machine learning model to analyze metrics including but n
 
 
 
-\# Installation and Running
+\## Installation and Running
 
 
 
@@ -73,7 +73,7 @@ Input metrics using sliders
 
 
 
-\# Next Possible Steps
+\## Next Possible Steps
 
 
 

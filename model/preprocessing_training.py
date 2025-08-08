@@ -30,13 +30,6 @@ def train_model(data):
     print("Classification report: \n", classification_report(y_test,y_pred))
 
     return model, scaler
-
-
-
-# def clean_data2():
-#     data=pd.read_csv("data/data.csv")
-#     data=data.drop(['Unnamed: 32', 'id'], axis=1)
-
     
 def clean_data():
     data=pd.read_csv("data/data.csv")

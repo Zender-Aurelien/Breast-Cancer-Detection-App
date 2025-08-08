@@ -18,9 +18,11 @@ This project is intended for use as practice \& an educational tool for biotechn
 
 
 
-* Streamlit-hosted UI with labeled sliders in the sidebar to customize input measurements
-* Real-time predictions with a probability score indicating the likelihood of the cell cluster being benign or malignant
-* Radar chart visualization to help medical professionals to better understand input data.
+Streamlit-hosted UI with labeled sliders in the sidebar to customize input measurements
+
+Real-time predictions with a probability score indicating the likelihood of the cell cluster being benign or malignant
+
+Radar chart visualization to help medical professionals to better understand input data.
 
 
 
@@ -32,11 +34,15 @@ The app uses a trained machine learning model to analyze metrics including but n
 
 
 
-* Radius
-* Texture
-* Smoothness
-* Compactness
-* Area
+Radius
+
+Texture
+
+Smoothness
+
+Compactness
+
+Area
 
 
 
@@ -44,12 +50,17 @@ The app uses a trained machine learning model to analyze metrics including but n
 
 
 
-* Streamlit
-* scikit-learn
-* pandas
-* numpy
-* joblib
-* plotly
+Streamlit
+
+scikit-learn
+
+pandas
+
+numpy
+
+joblib
+
+plotly
 
 
 
@@ -77,5 +88,7 @@ Input metrics using sliders
 
 
 
-* Develop feature to quickly implement metrics
-* Improve visual features of application
+Develop feature to quickly implement metrics
+
+Improve visual features of application
+

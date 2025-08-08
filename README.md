@@ -1,8 +1,7 @@
-\# Breast Cancer Detection App
+# Breast Cancer Detection App
 
 
-
-\## Overview
+## Overview
 
 
 
@@ -14,7 +13,7 @@ This project is intended for use as practice \& an educational tool for biotechn
 
 
 
-\## Features
+## Features
 
 
 
@@ -26,7 +25,7 @@ Radar chart visualization to help medical professionals to better understand inp
 
 
 
-\## How It Works
+## How It Works
 
 
 
@@ -46,7 +45,7 @@ Area
 
 
 
-\## Tools \& Technologies
+## Tools \& Technologies
 
 
 
@@ -64,7 +63,7 @@ plotly
 
 
 
-\## Installation and Running
+## Installation and Running
 
 
 
@@ -84,7 +83,7 @@ Input metrics using sliders
 
 
 
-\## Next Possible Steps
+## Next Possible Steps
 
 
 

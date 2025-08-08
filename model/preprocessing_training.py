@@ -1,5 +1,4 @@
-import pandas as pd
-import numpy as np
+import pandas as pd #import necessary libraries
 from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.model_selection import train_test_split
@@ -9,6 +8,7 @@ import joblib
 
 
 def train_model(data):
+    #get target values
     X=data.drop(['diagnosis'],axis=1)
     y=data['diagnosis']
 
@@ -33,9 +33,9 @@ def train_model(data):
 
 
 
-def clean_data2():
-    data=pd.read_csv("data/data.csv")
-    data=data.drop(['Unnamed: 32', 'id'], axis=1)
+# def clean_data2():
+#     data=pd.read_csv("data/data.csv")
+#     data=data.drop(['Unnamed: 32', 'id'], axis=1)
 
     
 def clean_data():
@@ -43,15 +43,18 @@ def clean_data():
 
     data=data.drop(['Unnamed: 32', 'id'], axis=1)
 
+    #use one hot encoding to assign numerical values
     data['diagnosis']=data['diagnosis'].map({'M':1,'B':0})
 
     return data
 
 
 def main():
+    #clean data, assign model and scaler
     data=clean_data()
     model, scaler=train_model(data)
 
+    #save models
     joblib.dump(model, 'model/model.pkl')
     joblib.dump(scaler, 'model/scaler.pkl')
 

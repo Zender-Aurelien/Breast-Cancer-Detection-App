@@ -71,11 +71,11 @@ Clone repository
 
 
 
-Install dependencies : pip install -r requirements.txt
+Install dependencies : `pip install -r requirements.txt`
 
 
 
-Run the Streamlit app : streamlit run app/main.py
+Run the Streamlit app : `streamlit run app/main.py`
 
 
 

@@ -42,11 +42,11 @@ def add_predictions(input_data):
     if prediction[0]==0:
         st.write('Benign')
     else:
-        st.write('Malicious')
+        st.write('Malignant')
     
     #print prediction probablities
     st.write("Probability of being benign: ", (round(model.predict_proba(input_array_scaled)[0][0],3)*100))
-    st.write("Probability of being malicious: ",(round(model.predict_proba(input_array_scaled)[0][1],3)*100))
+    st.write("Probability of being malignant: ",(round(model.predict_proba(input_array_scaled)[0][1],3)*100))
 
     st.write("This app can assist medical professionals in making a diagnosis, but should not be used as a substitute for a professional diagnosis.")
 
@@ -171,8 +171,6 @@ def main():
     )
 
     input_data=add_sidebar()
-    #st.write to create a <p> element
-    #st.write("Hello World!")
 
 
     with st.container():
